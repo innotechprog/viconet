@@ -1,0 +1,423 @@
+.f-14{
+	font-family: "Barlow", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+}
+a,button,p{
+	font-family: "Barlow", Sans-serif;
+}
+.mailinput{
+	height: 50px!important;
+	line-height: 55px;
+	padding: 10px;
+	outline: none;
+	border: none;
+border-radius: 5px;
+}
+#jobs_return{
+	padding:10px;
+}
+.bton3{
+	outline: none;
+	border: none;
+    font-family: "Barlow", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 13px 30px 15px 30px;
+}
+.jobtooglebtn{
+	height: 40px;
+	width: 40px;
+	background:#e4186d!important;
+    align-items: center;
+    font-size: var(--nav-menu-icon-size,22px);
+    padding: 0.25em;
+    cursor: pointer;
+    border: 0 solid;
+    border-radius: 3px;
+    color: #494c4f;
+    margin-top: 30px;
+    display: none;
+}
+
+.jobtooglebtn .line{
+	width: 100%;
+	height: 6px;
+	background: #fff;
+	margin-bottom: 5px;
+}
+.first-top{
+	width: 100%;
+	height:40px;
+	background:#26266A;
+	position: fixed;
+	z-index: 9;
+}
+.top-header{
+	padding:7px 50px 7px 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.left{
+	margin-top: 5px;
+	display: flex;
+}
+.right{
+	display: flex;
+}
+.social-icon{
+	color: #fff!important;
+}
+.social-icon:hover{
+	color: #CC3366!important;
+}
+.header2{
+	width: 100%;
+	height:100px;
+	background: #fff;
+	position: fixed;
+	top:40px;
+	z-index: 9;
+}
+.header-content2{
+margin: 0 auto;
+display: flex;
+max-width: 1180px;
+}
+
+.logo2{
+	height: 55px;
+	width:170px;
+	line-height: 100px;
+	margin-top: -2px;
+	float: left;
+}
+.logo-img1{
+    width:176px;
+
+}
+.logo-img2{
+width:70px;
+height: 70px;
+float: left;
+margin-top: 15px;
+display: none;
+}
+.right-cont{
+	float: right;	
+}
+.links2{
+text-align: center!important;
+line-height: 100px;
+/*margin-top: 0px;*/
+margin:0 auto!important;
+}
+.links2 ul{
+list-style: none;
+text-align: center;
+display: flex;
+justify-content: space-between;
+gap:20px;
+
+}
+.links2 ul li{
+}
+.links2 ul li a{
+text-decoration: none;
+color:#1b1825;
+transition: 1s;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 1;
+text-transform: capitalize;
+position: relative;
+}
+.links2 ul li a:hover
+{
+	color: #4848bc;
+}
+.header-btn2{
+	line-height: 100px;
+}
+.add-h2{ 
+	height:298px;
+}
+@media screen and (max-width:600px)
+{
+.first-top{
+	width: 100%;
+	height:60px;
+	background:#26266A;
+	position: fixed;
+	z-index: 9;
+}
+
+.top-header{
+	display: block;
+	text-align: center!important;
+	align-items: center;
+	height: 60px!important;
+	padding: 10px;margin:0 auto;
+}
+.header2{
+	top: 60px;
+	padding: 3px;
+	
+	text-align: center;
+	height: 140px!important;
+}
+.jobtooglebtn{
+	display: block;
+}
+.left{
+	text-align: center!important;
+	width: 100%;
+}
+.right{
+	text-align: center!important;
+}
+
+.links2{
+	width: 100%;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top:140px;
+	display: none;
+	transition: all .	3s ease;
+
+}
+.links2.active{
+	display: block;
+}
+.links2 ul{
+list-style: none;
+text-align: left;
+display: block;
+}
+.links2 ul li{
+width: 100%;
+margin-right: unset;
+line-height: 50px;
+}
+.links2 ul li a{
+text-decoration: none;
+}
+.links2 ul li a:hover
+{
+	color: #4848bc;
+}
+.bton2{
+border-radius: 20px;
+font-family: "Barlow", Sans-serif;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+color:#fff;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding:10px 20px;
+border:none;
+order: 10;
+flex-grow: 1;
+}
+
+.f-14{
+	font-size: 12px;
+}
+.header-content2{
+margin-right: 10px;
+margin-left: 10px;
+display: block;
+}
+.header-btn2{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.logo-img1{
+	display: block;
+	margin: 0 auto;
+}
+.logo2{
+	width: 100%;
+	align-items: center;
+	text-align: center!important;
+	display: block;
+}
+.bton2{
+	font-size: 12px;
+	padding: 8px 10px;
+}
+}
+.jobs-footer{
+	width: 100%;
+    position: relative;
+
+ }
+ .footer-bgimg{
+ 	padding:100px 50px 10px 50px;
+	/* Define the blue background */
+	width: 100%;
+	padding:100px 50px 10px 50px;
+	/* Define the blue background */
+    background-color: #26266A; /* Blue background color */    
+    /* Use a WebP image as a background */
+    z-index: 1;
+ }
+.footer-bgimg::before {
+	content: "";
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/ezgif.com-gif-maker-9.webp');/* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.1; /* Adjust opacity as needed */
+    z-index: 0; /* Place behind the blue background */
+}
+.bottom-footer{	
+ 	background-color: #26266A;
+	/* Define the blue background */
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+}
+.bf{
+	max-width: 1180px;
+	border-top:1px solid #fff;
+	line-height: 10px;
+	margin:0 auto;
+}
+.footer-logo{
+	width: 100%;
+}.fp-14{
+	font-size: 14px;
+	font-weight: 500;
+	color: #ada8ba;
+	line-height: 25px;
+}
+.fp-16{
+	font-family: "Barlow", Sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ada8ba;
+	line-height: 25px;
+}
+.fp-18{
+	font-family: "Barlow", Sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: whitesmoke;
+	line-height: 25px;
+}
+.social-icons{
+	display: flex;
+}
+.f-icon{
+	width: 50px;
+	height: 50px;
+	background: #CC3366;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	margin-right: 10px;
+}
+.f-icon:hover{
+	color:#CC3366;
+	background: #fff!important;
+}
+.footer-links{
+display: block;
+}
+.f-link{
+	font-family: "Barlow", Sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ada8ba;
+}
+.f-link:hover{
+	font-size: 16px;
+	font-weight: 600;
+	color: #CC3366;
+}
+.dropdownbtn{
+
+}
+.dropdown-list{
+	background: #fff;
+	width: auto;
+	position: absolute;
+	top: 70px;
+	padding: unset;
+display: none;}
+.dropdown-list ul{
+	display: block;
+	text-align: left;
+	padding: unset;
+}
+.dropdown-list ul li{
+line-height: 35px;
+margin: unset;padding: 8px 13px;
+}
+.dropdown-list ul li a{
+	transition: unset!important;
+}
+.dropdown-list ul li:hover{
+background: #26266A;
+}
+.dropdown-list ul li:hover a{
+color: #fff!important;
+}
+.links2 ul li:hover .dropdown-list{
+	display: block;
+}
+.dropdown-list .dropdownitem{
+	width: 100%!important;
+	color: pink;
+}
+@media screen and (max-width:600px){
+.links2 ul li a{
+position: unset;
+}
+	.dropdown-list{
+		position: unset!important;
+	}
+	.links2 ul li:hover .dropdown-list{
+	display: block;
+}
+}
+@media screen and (min-width:1180px){
+	.top-header{
+	padding:7px;
+	display: flex;
+	justify-content: space-between;
+}
+}
+.prof-container{
+		max-width: 1180px!important;
+		margin:0 auto;
+		padding: 130px 0px 100px 0px;
+}
+.max-width{
+		max-width: 1180px!important;
+		margin:0 auto;
+}
+.h5-ext{
+font-family:  "Barlow", Sans-serif;
+font-weight: 600;
+font-size: 14px;
+}

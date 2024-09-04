@@ -1,0 +1,17 @@
+{
+    "name": "dev-ttchtech/portal",
+    "autoload": {
+        "psr-4": {
+            "DevTtchtech\\Portal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "innocent"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "tecnickcom/tcpdf": "^6.6"
+    }
+}

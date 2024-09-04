@@ -1,0 +1,7 @@
+[15-Jul-2023 13:08:48 Africa/johannesburg] PHP Warning:  Trying to access array offset on value of type bool in /home/viconetgroupco/public_html/admin.viconetgroup.com/include/functions.php on line 382
+[15-Jul-2023 13:08:48 Africa/johannesburg] PHP Warning:  Trying to access array offset on value of type bool in /home/viconetgroupco/public_html/admin.viconetgroup.com/include/functions.php on line 383
+[15-Jul-2023 13:08:48 Africa/johannesburg] PHP Warning:  Trying to access array offset on value of type bool in /home/viconetgroupco/public_html/admin.viconetgroup.com/include/functions.php on line 384
+[15-Jul-2023 13:08:48 Africa/johannesburg] PHP Warning:  Trying to access array offset on value of type bool in /home/viconetgroupco/public_html/admin.viconetgroup.com/include/functions.php on line 385
+[15-Jul-2023 13:08:48 Africa/johannesburg] PHP Warning:  Trying to access array offset on value of type bool in /home/viconetgroupco/public_html/admin.viconetgroup.com/include/functions.php on line 386
+[15-Jul-2023 13:08:48 Africa/johannesburg] PHP Warning:  include(modals.php): Failed to open stream: No such file or directory in /home/viconetgroupco/public_html/admin.viconetgroup.com/c_p.php on line 369
+[15-Jul-2023 13:08:48 Africa/johannesburg] PHP Warning:  include(): Failed opening 'modals.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/viconetgroupco/public_html/admin.viconetgroup.com/c_p.php on line 369
